@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_us2.test1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test1</name>
+        <script><![CDATA[var test1 = Class.create();
+test1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-06 18:31:32</sys_created_on>
+        <sys_id>0dc40410b7403010ab6fc606fe11a908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_package display_value="us2" source="x_us2">25940010b7403010ab6fc606fe11a9ec</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="us2">25940010b7403010ab6fc606fe11a9ec</sys_scope>
+        <sys_update_name>sys_script_include_0dc40410b7403010ab6fc606fe11a908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-06 18:31:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
